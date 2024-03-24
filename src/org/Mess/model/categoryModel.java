@@ -5,7 +5,14 @@ public class categoryModel {
 	private String name;
 	private int Mfees;
 	private int plateRate;
+	private int sum;
 	
+	public int getSum() {
+		return sum;
+	}
+	public void setSum(int sum) {
+		this.sum = sum;
+	}
 	public categoryModel() {
 		
 	}
